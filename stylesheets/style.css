@@ -4,9 +4,9 @@
   font-style: normal;
   src: local("Craftwork Grotesk Medium"),
         local("CraftworkGrotesk-Medium"),
-        url(../fonts/CraftworkGrotesk-Medium.woff2) format("woff2"),
-        url(../fonts/CraftworkGrotesk-Medium.woff) format("woff"),
-        url(../fonts/CraftworkGrotesk-Medium.eot) format("eot");
+        url(..//fonts/CraftworkGrotesk-Medium.woff2) format("woff2"),
+        url(..//fonts/CraftworkGrotesk-Medium.woff) format("woff"),
+        url(..//fonts/CraftworkGrotesk-Medium.eot) format("eot");
   font-display: swap;
 }
 @font-face {
@@ -15,9 +15,9 @@
   font-style: normal;
   src: local("Craftwork Grotesk Regular"),
         local("CraftworkGrotesk-Regular"),
-        url(../fonts/CraftworkGrotesk-Regular.woff2) format("woff2"),
-        url(../fonts/CraftworkGrotesk-Regular.woff) format("woff"),
-        url(../fonts/CraftworkGrotesk-Regular.eot) format("eot");
+        url(..//fonts/CraftworkGrotesk-Regular.woff2) format("woff2"),
+        url(..//fonts/CraftworkGrotesk-Regular.woff) format("woff"),
+        url(..//fonts/CraftworkGrotesk-Regular.eot) format("eot");
   font-display: swap;
 }
 @font-face {
@@ -27,26 +27,19 @@
   src: local("Gilroy Medium"),
         local("Gilroy-Medium"),
         local("GilroyMedium"),
-        url(../fonts/Gilroy-Medium.woff2) format("woff2"),
-        url(../fonts/Gilroy-Medium.woff) format("woff"),
-        url(../fonts/Gilroy-Medium.eot) format("eot");
+        url(..//fonts/Gilroy-Medium.woff2) format("woff2"),
+        url(..//fonts/Gilroy-Medium.woff) format("woff"),
+        url(..//fonts/Gilroy-Medium.eot) format("eot");
   font-display: swap;
 }
 @font-face {
   font-family: "Gilroy-Regular";
   font-weight: 400;
   font-style: normal;
-  src: local("Gilroy Regular"),
-        local("Gilroy-Regular"),
-        local("GilroyRegular")
-        url(../fonts/Gilroy-Regular.woff2) format("woff2"),
-        url(../fonts/Gilroy-Regular.woff) format("woff"),
-        url(../fonts/Gilroy-Regular.eot) format("eot");
+  src: url(../fonts/Gilroy-Regular.woff2) format("woff2"),
+  url(../fonts/Gilroy-Regular.woff) format("woff"),
+  url(../fonts/Gilroy-Regular.woff2) format("eot");
   font-display: swap;
-}
-
-html {
-
 }
 body {
   background-color: black;
@@ -54,8 +47,7 @@ body {
   overscroll-behavior: none;
 }
 h1 {
-  /* font-family: 'Craftwork Grotesk'; */
-  font-family: "CraftworkGrotesk-Medium";
+  font-family: 'CraftworkGrotesk-Medium';
   font-style: normal;
   font-weight: 500;
   /* font-size: 50px; */
@@ -66,7 +58,7 @@ h1 {
   line-height: 4.545vw;
 }
 h2 {
-  font-family: "CraftworkGrotesk-Medium";
+  font-family: 'CraftworkGrotesk-Medium';
   font-style: normal;
   font-weight: 500;
   /* font-size: 40px; */
