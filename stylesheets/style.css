@@ -54,7 +54,8 @@ body {
   overscroll-behavior: none;
 }
 h1 {
-  font-family: 'Craftwork Grotesk';
+  /* font-family: 'Craftwork Grotesk'; */
+  font-family: "CraftworkGrotesk-Medium";
   font-style: normal;
   font-weight: 500;
   /* font-size: 50px; */
@@ -65,7 +66,7 @@ h1 {
   line-height: 4.545vw;
 }
 h2 {
-  font-family: 'Craftwork Grotesk';
+  font-family: "CraftworkGrotesk-Medium";
   font-style: normal;
   font-weight: 500;
   /* font-size: 40px; */
